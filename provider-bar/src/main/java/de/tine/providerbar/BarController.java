@@ -13,7 +13,7 @@ public class BarController {
 
     @GetMapping("/bar2")
     public String bar2() {
-        return "bar2";
+        return "wrong-value";
     }
 
     @GetMapping("/bar3")
